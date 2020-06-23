@@ -21,18 +21,17 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── README.md        
-    ├── data
-    │   ├── processed      <- Processed historical tweet data (1/1 to 5/1, 2020)
-    │   └── raw            <- Raw historical data.
+    ├── README.md 
     │
-    ├── models             <- Contains trained Kmeans Cluster Model and specialized word2Vec model.
+    ├── DataScrape         <- Scraping algorithm written in python using BeautifulSoup.
     │
-    ├── notebooks          <- Majority of the code is here, I may add some more steps in "Historical Data Analysis" as it doesn't fully reflect all the steps I have taken.
+    ├── Datasets           <- Processed scraped data based on tag counts.
     │
-    ├── presentation       <- presentation made for this project.
+    ├── Graphs             <- Contains some findings.
     │
-    └── requirements.txt   <- The requirements file for reproducing the analysis environment.
+    ├── JupyterNotebook    <- The code used in this project.
+    │
+    └── Presentatio        <- PDF presentation made for this project.
 
 --------
 Thank you.
